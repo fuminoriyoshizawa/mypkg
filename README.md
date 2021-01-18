@@ -7,11 +7,17 @@
 * Raspberry Pi4 ModelB 4GB
 * Ubuntu20.04
 * ROS Noetic
-# ROS環境の構築
+# プログラムのインストール
 上田先生のhttps://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server より
 ```bash
 $ ./step0.bash
 $ ./step1.bash
 ```
-を実行しインストールしてください。
-# 
+を実行しインストールして、ROS環境を構築してください。
+次に以下を実行しワークスペースを準備して下さい。
+```bash
+$ mkdir -p catkin/src
+$ cd ~/catkin_ws/src
+$ catkin_init_workspace
+```
+次に
