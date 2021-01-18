@@ -8,18 +8,19 @@
 * Ubuntu20.04
 * ROS Noetic
 # プログラムのインストール
-上田先生のhttps://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server より以下を実行して、ROS環境を構築してください
+上田先生のhttps://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server より以下を実行して、ROS環境を構築して下さい。
 ```bash
 $ ./step0.bash
 $ ./step1.bash
 ```
-次に以下を実行しワークスペースを準備して下さい。
+次に以下を実行してプログラムのインストールとビルドを行って下さい。
 ```bash
 $ mkdir -p catkin/src
 $ cd ~/catkin_ws/src
 $ catkin_init_workspace
-```
-次に以下を実行し
-```bash
 $ cd ~/catkin_ws/src
-$ git clone 
+$ git clone https://github.com/fuminoriyoshizawa/mypkg.git
+$ cd ~/catkin_ws
+$ catkin_make
+$ source ~/.bashrc
+```
