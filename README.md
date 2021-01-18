@@ -7,7 +7,10 @@
 * Raspberry Pi4 ModelB 4GB
 * Ubuntu20.04
 * ROS Noetic
-# ROS環境の構築
-
-
-
+# ROs環境の構築
+上田先生のhttps://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_serverより
+```bash
+$ ./step0.bash
+$ ./step1.bash
+```
+を実行しインストールしてください。
