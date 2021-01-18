@@ -19,4 +19,7 @@ $ mkdir -p catkin/src
 $ cd ~/catkin_ws/src
 $ catkin_init_workspace
 ```
-次に
+次に以下を実行し
+```bash
+$ cd ~/catkin_ws/src
+$ git clone 
