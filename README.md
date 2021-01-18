@@ -33,4 +33,5 @@ $ rosrun mypkg twice.py       //端末3に入力
 $ rostopic list               //端末4に入力し roscore、count.py、twice.pyが動作しているか確認
 $ rostopic echo /twice        //端末4に入力
 ```
-# 
+# 動作の様子
+以下のリンクから
