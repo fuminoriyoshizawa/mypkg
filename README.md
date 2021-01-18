@@ -24,3 +24,12 @@ $ cd ~/catkin_ws
 $ catkin_make
 $ source ~/.bashrc
 ```
+# 動作確認
+ターミナルを4つ開き、それぞれの端末に順番に以下のコマンドを入力してください。
+```bash
+$ roscore                     //端末1に入力
+$ rosrun mypkg count.py       //端末2に入力
+$ rosrun mypkg twice.py       //端末3に入力
+$ rostopic list               //端末4に入力し roscore、count.py、twice.pyが動作しているか確認
+$ rostopic echo /twice        //端末4に入力
+```
