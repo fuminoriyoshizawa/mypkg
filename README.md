@@ -34,4 +34,5 @@ $ rostopic list               //端末4に入力し roscore、count.py、twice.p
 $ rostopic echo /twice        //端末4に入力
 ```
 # 動作の様子
-以下のリンクから
+以下のリンクから実際の動作状況が確認できます。
+* 
